@@ -1,4 +1,4 @@
-/*alle Aufträge des Kunden "Maier GmbH"*/
+/*alle Aufträge des Kunden "Maier GmbH" zeigen*/
 SELECT Auftrag.AuftragsNr, Auftrag.Datum FROM Auftrag, Kunde
 WHERE Auftrag.KundenNr = Kunde.KundenNr && Kunde.name = "Maier GmbH";
 
